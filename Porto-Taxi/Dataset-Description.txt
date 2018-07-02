@@ -1,3 +1,4 @@
+http://www.geolink.pt/ecmlpkdd2015-challenge/dataset.html
 Each data sample corresponds to one completed trip. It contains a total of 9 (nine) features, described as follows:
 
 TRIP_ID: (String) It contains a unique identifier for each trip;
