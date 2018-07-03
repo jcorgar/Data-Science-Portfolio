@@ -15,7 +15,9 @@ Linear Regression:
 A time series at time t depends on the previous steps of the series. For this reason, the features constructed for the regression were n steps (n from 6 ro 24). A lag of 24 was expected to be the most significant due to the 24 hour cycle. Other features, scalers, lasso and one hot encoding were tested but the simple model outperformed the more complicated models in accuracy.
 
 Random Forest:
+Same features as Linear regression. 
 
+That models were compared against the heterogeneous ensemble method developed in: https://ieeexplore.ieee.org/document/6532415/
 
 
 
