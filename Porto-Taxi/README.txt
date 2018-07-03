@@ -17,7 +17,7 @@ A time series at time t depends on the previous steps of the series. For this re
 Random Forest:
 Same features as Linear regression. 
 
-That models were compared against the heterogeneous ensemble method developed in: https://ieeexplore.ieee.org/document/6532415/
+The models were compared against the heterogeneous ensemble method developed in: https://ieeexplore.ieee.org/document/6532415/
 
 
 
