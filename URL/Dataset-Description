@@ -1,0 +1,23 @@
+Original: http://www.sysnet.ucsd.edu/projects/url/#datasets
+
+An anonymized 120-day subset of our ICML-09 data set is available from the following links:
+
+URL Data Set (Matlab) (470 MB)
+URL Data Set (SVM-light) (234 MB)
+The data set consists of about 2.4 million URLs (examples) and 3.2 million features. If you use the data set in published work, please cite the ICML-09 paper in which it was introduced and first described.
+
+
+Description of Data (Matlab)
+
+The file url.mat contains variables which we describe as follows:
+
+FeatureTypes --- A list of column indices for the data matrices that are real-valued features.
+DayX (where X is an integer from 0 to 120) --- A struct containing the data for day X.
+DayX.data --- an N x D data matrix where N is the number of URLs (rows), and D is the number of features (columns).
+DayX.labels --- an N x 1 label vector where 1 indicates a malicious URL and 0 indicates a benign URL.
+Description of Data (SVM-light)
+
+Uncompressing the archive url_svmlight.tar.gz will yield a directory url_svmlight/ containing the following files:
+
+FeatureTypes --- A text file list of feature indices that correspond to real-valued features.
+DayX.svm (where X is an integer from 0 to 120) --- The data for day X in SVM-light format. A label of +1 corresponds to a malicious URL and -1 corresponds to a benign URL.
